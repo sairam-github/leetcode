@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseOnlyLetters", "ReverseOnlyLetters\ReverseOnlyLetters.csproj", "{0C0AC270-9D17-4410-9747-10E5F029E29C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelsAndStones", "JewelsAndStones\JewelsAndStones.csproj", "{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C0AC270-9D17-4410-9747-10E5F029E29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C0AC270-9D17-4410-9747-10E5F029E29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C0AC270-9D17-4410-9747-10E5F029E29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
