@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseOnlyLetters", "Rever
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelsAndStones", "JewelsAndStones\JewelsAndStones.csproj", "{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum_SortedArray", "TwoSum_SortedArray\TwoSum_SortedArray.csproj", "{BEA8E3EE-194A-4A27-BE7C-7497A2F16F76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25240386-6BBA-4BB9-99A8-8BE8AAFAE9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA8E3EE-194A-4A27-BE7C-7497A2F16F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA8E3EE-194A-4A27-BE7C-7497A2F16F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA8E3EE-194A-4A27-BE7C-7497A2F16F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA8E3EE-194A-4A27-BE7C-7497A2F16F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
