@@ -13,7 +13,7 @@ namespace TwoSum
             // https://leetcode.com/problems/two-sum/
 
             int[] arr = new int[] {3, 2, 4};
-            int target = 9;
+            int target = 6;
 
             int[] result = FindTwoSum(arr, target);
         }
