@@ -20,10 +20,18 @@ namespace Add_Two_Numbers
         {
             //342 + 465
             // 2 4 3
-            // 5 6 4
+            // 5 6
+            ListNode l1 = new ListNode(5);
+            //l1.next = new ListNode(4);
+            // l1.next.next = new ListNode(3);
+
+            ListNode l2 = new ListNode(5);
+            //l2.next = new ListNode(6);
+
+            ListNode res = AddTwoNumbers(l1, l2);
         }
 
-        public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             if (l1 == null || l2 == null)
             {
@@ -38,18 +46,8 @@ namespace Add_Two_Numbers
 
             while (temp1 != null || temp2 != null)
             {
-                int val1 = 0;
-                int val2 = 0;
-
-                if (temp1 != null)
-                {
-                    val1 = temp1.val;
-                }
-
-                if (temp2 != null)
-                {
-                    val2 = temp2.val;
-                }
+                int val1 = (temp1 == null)? 0 : temp1.val;
+                int val2 = (temp2 == null) ? 0 : temp2.val;
 
                 remainder = (quotient + val1 + val2) % 10;
                 quotient = (quotient + val1 + val2) / 10;
@@ -67,15 +65,8 @@ namespace Add_Two_Numbers
                     tempRunner = tempRunner.next;
                 }
 
-                if (temp1 != null)
-                {
-                    temp1 = temp1.next;
-                }
-
-                if (temp2 != null)
-                {
-                    temp2 = temp2.next;
-                }
+                temp1 = temp1?.next;
+                temp2 = temp2?.next;
             }
 
             if (quotient != 0)
