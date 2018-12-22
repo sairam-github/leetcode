@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add-Two-Numbers", "Add-Two-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge-Two-Sorted-Lists", "Merge-Two-Sorted-Lists\Merge-Two-Sorted-Lists.csproj", "{6BEE5EB8-79FE-461D-9D05-6B090F73210E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLinkedList", "DeleteLinkedList\DeleteLinkedList.csproj", "{BFA04486-EB5D-4BAE-B35B-A7E004996393}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{6BEE5EB8-79FE-461D-9D05-6B090F73210E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BEE5EB8-79FE-461D-9D05-6B090F73210E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BEE5EB8-79FE-461D-9D05-6B090F73210E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA04486-EB5D-4BAE-B35B-A7E004996393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA04486-EB5D-4BAE-B35B-A7E004996393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA04486-EB5D-4BAE-B35B-A7E004996393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA04486-EB5D-4BAE-B35B-A7E004996393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
